@@ -92,10 +92,28 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="commons-codec-1.6" level="project" />
+    <orderEntry type="library" exported="" name="spring-security-config-3.2.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-security-core-3.2.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-expression-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-asl-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="spring-webmvc-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-web-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-core-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="jackson-mapper-asl-1.9.13" level="project" />
+    <orderEntry type="library" exported="" name="spring-security-oauth-2.0.8.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-beans-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-android-rest-template-2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="design-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="spring-aop-4.0.9.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
     <orderEntry type="library" exported="" name="support-v4-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="spring-security-web-3.2.7.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-security-oauth2-2.0.8.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-android-core-2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.1.1" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-23.1.1" level="project" />
-    <orderEntry type="library" exported="" name="design-23.1.1" level="project" />
+    <orderEntry type="library" exported="" name="spring-context-4.0.9.RELEASE" level="project" />
   </component>
 </module>

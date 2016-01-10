@@ -24,4 +24,17 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
-}
+
+    compile 'org.springframework.android:spring-android-rest-template:2.0.0.BUILD-SNAPSHOT'
+        // for OAuth 2.0
+        compile 'org.springframework.security.oauth:spring-security-oauth2:2.0.8.RELEASE'
+        // for OAuth 1.0a
+        compile 'org.springframework.security.oauth:spring-security-oauth:2.0.8.RELEASE'
+    }
+
+repositories {
+        maven {
+            url 'http://repo.spring.io/snapshot'
+        }
+    }
+
