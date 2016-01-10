@@ -11,4 +11,5 @@
     <string name="title_activity_matchfinder_screen">matchfinder_screen</string>
     <string name="matchfinder_string">MatchFinder</string>
     <string name="matches_string">Matches</string>
+    <string name="title_activity_matches_screen">matches_screen</string>
 </resources>

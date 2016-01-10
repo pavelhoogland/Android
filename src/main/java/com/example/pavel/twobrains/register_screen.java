@@ -24,6 +24,8 @@ public class register_screen extends AppCompatActivity {
 
         String newEmail = inputRegiterEmail.getText().toString();
         String newPass= inputRegisterPassword.getText().toString();
+
+
         final Intent rd= new Intent(this,MainActivity.class);
         Button registerDone = (Button) findViewById(R.id.registerDoneButton);
         registerDone.setOnClickListener(new View.OnClickListener() {

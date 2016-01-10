@@ -33,6 +33,11 @@
             android:label="@string/title_activity_matchfinder_screen"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".matches_screen"
+            android:label="@string/title_activity_matches_screen"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

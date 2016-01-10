@@ -12,7 +12,6 @@
     android:background="#b25272f5">
 
     <Button
-        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/matchfinder_string"
@@ -24,7 +23,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/matchButton"
