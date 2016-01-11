@@ -95,11 +95,11 @@
     <orderEntry type="library" exported="" name="commons-codec-1.6" level="project" />
     <orderEntry type="library" exported="" name="spring-security-config-3.2.7.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="spring-security-core-3.2.7.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="spring-expression-4.0.9.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-asl-1.9.13" level="project" />
-    <orderEntry type="library" exported="" name="spring-webmvc-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-expression-4.0.9.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="spring-web-4.0.9.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="spring-core-4.0.9.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-webmvc-4.0.9.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="jackson-mapper-asl-1.9.13" level="project" />
     <orderEntry type="library" exported="" name="spring-security-oauth-2.0.8.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="spring-beans-4.0.9.RELEASE" level="project" />

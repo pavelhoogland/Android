@@ -12,4 +12,9 @@
     <string name="matchfinder_string">MatchFinder</string>
     <string name="matches_string">Matches</string>
     <string name="title_activity_matches_screen">matches_screen</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="age_hint">Age</string>
+    <string name="username_register_hint">Email/Username</string>
+    <string name="password_register_hint">Password</string>
 </resources>

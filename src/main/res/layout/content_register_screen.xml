@@ -17,9 +17,9 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/emailRegisterField"
-        android:layout_marginTop="67dp"
-        android:layout_below="@+id/toolbar"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/ageId"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username_register_hint" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -27,11 +27,48 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/passwordRegisterField"
-        android:layout_marginTop="36dp"
         android:password="false"
         android:layout_below="@+id/emailRegisterField"
         android:layout_alignLeft="@+id/emailRegisterField"
-        android:layout_alignStart="@+id/emailRegisterField" />
+        android:layout_alignStart="@+id/emailRegisterField"
+        android:layout_marginTop="40dp"
+        android:hint="@string/password_register_hint" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/firstNameId"
+        android:password="false"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/first_name_hint" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lastNameId"
+        android:password="false"
+        android:hint="@string/last_name_hint"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstNameId" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ageId"
+        android:password="false"
+        android:hint="@string/age_hint"
+        android:layout_below="@+id/firstNameId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="@string/register_done_button"
         android:id="@+id/registerDoneButton"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="25dp"
         android:layout_below="@+id/passwordRegisterField"
         android:layout_centerHorizontal="true" />
 

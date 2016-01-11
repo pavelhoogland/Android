@@ -12,6 +12,7 @@ import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
+    WebClient webclientAndroid= new WebClient();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                 EditText inputEmail = (EditText) findViewById(R.id.emailField);
                 EditText inputPassword = (EditText) findViewById(R.id.passwordField);
-                if (inputEmail.getText().toString().equals("admin") &&
-                        inputPassword.getText().toString().equals("admin")) {
+                if (webclientAndroid.login(inputEmail.getText().toString(),inputPassword.getText().toString())){
 
 
                     startActivity(i);
@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
        final Button register = (Button) findViewById(R.id.registerButton);
         final Intent r= new Intent(this, register_screen.class);
